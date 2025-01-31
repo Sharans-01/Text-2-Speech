@@ -116,6 +116,7 @@ select {
 }
 
 /* Responsive Design for Tablets & Mobile */
+/* Responsive Design for Tablets & Mobile */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 35px;
@@ -142,6 +143,11 @@ select {
         height: 45px;
         font-size: 14px;
     }
+
+    /* Hide the select element on mobile view */
+    select {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
@@ -164,5 +170,10 @@ select {
     select {
         height: 40px;
         font-size: 13px;
+    }
+
+    /* Hide the select element on mobile view */
+    select {
+        display: none;
     }
 }
